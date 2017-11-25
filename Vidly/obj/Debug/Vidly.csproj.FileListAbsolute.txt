@@ -73,3 +73,6 @@ D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubsc
 D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
 D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
 D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
+D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNameToMembershipType.resources
+D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateMembershipTypeName.resources
+D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.SetMembershipTypeNameToRequired.resources
