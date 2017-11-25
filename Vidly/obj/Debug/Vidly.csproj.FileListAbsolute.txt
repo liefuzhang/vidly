@@ -67,3 +67,9 @@ D:\visual studio 2015\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.Microsoft
 D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.csprojResolveAssemblyReference.cache
 D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.dll
 D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.pdb
+D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
+D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.Cache
+D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscribedToCustomer.resources
+D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
+D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
+D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
