@@ -76,3 +76,8 @@ D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnot
 D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNameToMembershipType.resources
 D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateMembershipTypeName.resources
 D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.SetMembershipTypeNameToRequired.resources
+D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthdateToCostumer.resources
+D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthdateToCostumer1.resources
+D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.SetBirthdateinCostumerToNullable.resources
+D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMovieModel.resources
+D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateGenre.resources
