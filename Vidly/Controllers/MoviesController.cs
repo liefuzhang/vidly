@@ -19,9 +19,44 @@ namespace Vidly.Controllers {
             _context.Dispose();
         }
 
+        public ActionResult New() {
+            var viewModel = new MovieFormViewModel {
+                Genres = _context.Genres.ToList()
+            };
+
+            return View("MovieForm", viewModel);
+        }
+
+        public ActionResult Edit(int id) {
+            var movie = _context.Movies.Single(m => m.Id == id);
+
+            var viewModel = new MovieFormViewModel {
+                Genres = _context.Genres.ToList(),
+                Movie = movie
+            };
+
+            return View("MovieForm", viewModel);
+        }
+
+        public ActionResult Save(Movie movie) {
+            if (movie.Id == 0) {
+                _context.Movies.Add(movie);
+                movie.DateAdded = DateTime.Now;
+            } else {
+                var movieInDb = _context.Movies.Single(m => m.Id == movie.Id);
+                movieInDb.Name = movie.Name;
+                movieInDb.ReleaseDate = movie.ReleaseDate;
+                movieInDb.GenreId = movie.GenreId;
+                movieInDb.NumberInStock = movie.NumberInStock;
+            }
+            _context.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
+
         // movies
         public ActionResult Index() {
-            var movies = _context.Movies.Include(m=>m.Genre).ToList();
+            var movies = _context.Movies.Include(m => m.Genre).ToList();
 
             return View(movies);
         }
@@ -38,29 +73,5 @@ namespace Vidly.Controllers {
             return View(movie);
         }
 
-        // GET: Movies/Random
-        public ActionResult Random() {
-            var movie = new Movie() { Id = 1, Name = "Shrek!" };
-            var customers = new List<Customer> {
-                new Customer {Name = "Customer 1" },
-                new Customer {Name = "Customer 2" }
-            };
-
-            var viewModel = new RandomMovieViewModel {
-                Movie = movie,
-                Customers = customers
-            };
-
-            return View(viewModel);
-        }
-
-        [Route("movies/released/{year}/{month:regex(\\d{2}):range(1,12)}")]
-        public ActionResult ByReleaseDate(int year, int month) {
-            return Content(year + "/" + month);
-        }
-
-        public ActionResult Edit(int id) {
-            return Content("id=" + id);
-        }
     }
 }
