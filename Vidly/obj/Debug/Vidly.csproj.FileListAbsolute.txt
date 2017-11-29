@@ -172,3 +172,11 @@ C:\Temp\vidly\Vidly\bin\System.Web.Http.xml
 C:\Temp\vidly\Vidly\bin\System.Web.Http.WebHost.xml
 C:\Temp\vidly\Vidly\bin\AutoMapper.dll
 C:\Temp\vidly\Vidly\bin\AutoMapper.xml
+D:\visual studio 2015\Projects\Vidly\Vidly\bin\AutoMapper.dll
+D:\visual studio 2015\Projects\Vidly\Vidly\bin\System.Net.Http.Formatting.dll
+D:\visual studio 2015\Projects\Vidly\Vidly\bin\System.Web.Http.dll
+D:\visual studio 2015\Projects\Vidly\Vidly\bin\System.Web.Http.WebHost.dll
+D:\visual studio 2015\Projects\Vidly\Vidly\bin\AutoMapper.xml
+D:\visual studio 2015\Projects\Vidly\Vidly\bin\System.Net.Http.Formatting.xml
+D:\visual studio 2015\Projects\Vidly\Vidly\bin\System.Web.Http.xml
+D:\visual studio 2015\Projects\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
