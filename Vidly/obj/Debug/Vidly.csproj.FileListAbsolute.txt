@@ -183,3 +183,5 @@ D:\visual studio 2015\Projects\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
 C:\Temp\vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
 D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
 D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLicenseToApplicationUser.resources
+C:\Temp\vidly\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLicenseToApplicationUser.resources
+C:\Temp\vidly\Vidly\obj\Debug\Vidly.Migrations.AddPhoneToApplicationUser.resources
