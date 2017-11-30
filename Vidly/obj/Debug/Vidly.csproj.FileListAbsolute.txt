@@ -180,3 +180,4 @@ D:\visual studio 2015\Projects\Vidly\Vidly\bin\AutoMapper.xml
 D:\visual studio 2015\Projects\Vidly\Vidly\bin\System.Net.Http.Formatting.xml
 D:\visual studio 2015\Projects\Vidly\Vidly\bin\System.Web.Http.xml
 D:\visual studio 2015\Projects\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
+C:\Temp\vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
