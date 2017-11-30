@@ -18,7 +18,7 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
-    <IISExpressSSLPort />
+    <IISExpressSSLPort>44380</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -199,6 +199,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="localConfigValues.cs" />
     <Compile Include="Migrations\201711250952467_InitialModel.cs" />
     <Compile Include="Migrations\201711250952467_InitialModel.Designer.cs">
       <DependentUpon>201711250952467_InitialModel.cs</DependentUpon>
@@ -255,6 +256,10 @@
     <Compile Include="Migrations\201711300346508_SeedUsers.Designer.cs">
       <DependentUpon>201711300346508_SeedUsers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711300808237_AddDrivingLicenseToApplicationUser.cs" />
+    <Compile Include="Migrations\201711300808237_AddDrivingLicenseToApplicationUser.Designer.cs">
+      <DependentUpon>201711300808237_AddDrivingLicenseToApplicationUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -264,6 +269,7 @@
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Min18YearsIfAMember.cs" />
     <Compile Include="Models\Movie.cs" />
+    <Compile Include="Models\RoleName.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\MovieFormViewModel.cs" />
@@ -271,6 +277,7 @@
     <Compile Include="ViewModels\RandomMovieViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="Content\bootstrap-litera.css" />
     <Content Include="Content\bootstrap-lumen.css" />
     <Content Include="Content\bootstrap.css" />
@@ -568,6 +575,9 @@
     <EmbeddedResource Include="Migrations\201711300346508_SeedUsers.resx">
       <DependentUpon>201711300346508_SeedUsers.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711300808237_AddDrivingLicenseToApplicationUser.resx">
+      <DependentUpon>201711300808237_AddDrivingLicenseToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -587,7 +597,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>51718</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:51718/</IISUrl>
+          <IISUrl>https://localhost:44380/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
