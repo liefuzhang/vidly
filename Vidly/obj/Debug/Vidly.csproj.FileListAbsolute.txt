@@ -190,3 +190,11 @@ C:\Temp\vidly\Vidly\bin\Glimpse.AspNet.dll
 C:\Temp\vidly\Vidly\bin\Glimpse.Core.dll
 C:\Temp\vidly\Vidly\bin\Glimpse.EF6.dll
 C:\Temp\vidly\Vidly\bin\Glimpse.Mvc5.dll
+D:\visual studio 2015\Projects\Vidly\Vidly\bin\Glimpse.Ado.dll
+D:\visual studio 2015\Projects\Vidly\Vidly\bin\Glimpse.AspNet.dll
+D:\visual studio 2015\Projects\Vidly\Vidly\bin\Glimpse.Core.dll
+D:\visual studio 2015\Projects\Vidly\Vidly\bin\Glimpse.EF6.dll
+D:\visual studio 2015\Projects\Vidly\Vidly\bin\Glimpse.Mvc5.dll
+D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddPhoneToApplicationUser.resources
+D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddRental.resources
+D:\visual studio 2015\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNumberAvailableToMovie.resources
