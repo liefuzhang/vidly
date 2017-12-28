@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>d:\visual studio 2015\projects\vidly\vidly\views\movies\list.cshtml</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\visual studio 2015\Projects\Vidly\Vidly\Models\MembershipType.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\visual studio 2015\projects\vidly\vidly\web.config</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\visual studio 2015\projects\vidly\vidly\controllers\moviescontroller.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\visual studio 2015\projects\vidly\vidly\app_start\routeconfig.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\visual studio 2015\projects\vidly\vidly\controllers\customerscontroller.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\visual studio 2015\projects\vidly\vidly\views\customers\index.cshtml</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\visual studio 2015\projects\vidly\vidly\views\movies\movieform.cshtml</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\visual studio 2015\projects\vidly\vidly\app_start\bundleconfig.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\visual studio 2015\projects\vidly\vidly\controllers\api\moviescontroller.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_Vidly_20171124073331/True/SqlTable/dbo.AspNetUsers.sql</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_Vidly_20171124073331/True/SqlTable/dbo.Customers.sql</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\visual studio 2015\Projects\Vidly\Vidly\Views\Rentals\New.cshtml</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>
